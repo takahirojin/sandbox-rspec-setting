@@ -14,7 +14,7 @@ on:
 
   # developブランチに対してPRが作成されている時、commitする度にgithub actionsでspecが走る
   pull_request:
-    branches: [main]
+    branches: [develop]
 
 jobs:
   rspec:
