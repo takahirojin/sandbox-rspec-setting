@@ -7,7 +7,9 @@ describe 'user_spec' do
     it {
       expect(user).to include({
         id: 1,
-        name: 'user-11111'
+        first_name: 'first-111',
+        last_name: 'last-111',
+        full_name: ''
       })
     }
   end
